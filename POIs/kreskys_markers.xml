@@ -9,7 +9,12 @@
 					</MarkerCategory>
 					<MarkerCategory name="waypoint" DisplayName="Waypoints" />
 					<MarkerCategory name="regroup" DisplayName="Regroupings" iconFile="Data\KreskysMarkers\hp_regroup.png" />
-					<MarkerCategory name="skillassist" DisplayName="Skill Assistances" />
+					<MarkerCategory name="skillassist" DisplayName="Skill Assistances">
+                        <MarkerCategory name="portal" DisplayName="Mesmer Portals" />
+                        <MarkerCategory name="mount" DisplayName="Mounts" />
+                        <MarkerCategory name="glide" DisplayName="Gliding" iconFile="Data\KreskysMarkers\hp_glide.png" />
+                        <MarkerCategory name="mushroom" DisplayName="Bouncing Mushroom" />
+                    </MarkerCategory>
 				</MarkerCategory>
 				<MarkerCategory name="fast" DisplayName="Fast" />
 			</MarkerCategory>
@@ -19,41 +24,89 @@
 	<POIs>
 		<POI MapID="1052" xpos="864.803" ypos="431.35" zpos="50.9264" type="kreskys_markers.hero_point.hot.normal" iconFile="Data\KreskysMarkers\hot_hp_start.png" />
 		<Trail type="kreskys_markers.hero_point.hot.normal.trail" trailData="Data\KreskysMarkers\hot_hp_vb_1.trl" />
+        <POI MapID="1052" xpos="860.362" ypos="431.565" zpos="48.8949" type="kreskys_markers.hero_point.hot.normal.trail" iconFile="Data\KreskysMarkers\hp_1.png" />
 		<Trail type="kreskys_markers.hero_point.hot.normal.trail.mastery" trailData="Data\KreskysMarkers\hot_hp_vb_1_mastery.trl" />
-		<POI MapID="1052" xpos="855.854" ypos="432.412" zpos="44.9107" type="kreskys_markers.hero_point.hot.normal.skillassist" iconFile="Data\KreskysMarkers\hp_glide.png" />
+		<POI MapID="1052" xpos="855.854" ypos="432.412" zpos="44.9107" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
 		<POI MapID="1052" xpos="737.153" ypos="368.18" zpos="-24.0651" type="kreskys_markers.hero_point.hot.normal.regroup" />
-		<POI MapID="1052" xpos="732.376" ypos="367.54" zpos="-25.6562" type="kreskys_markers.hero_point.hot.normal.skillassist" iconFile="Data\KreskysMarkers\hp_glide.png" />
+		<POI MapID="1052" xpos="732.376" ypos="367.54" zpos="-25.6562" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
 		<POI MapID="1052" xpos="643.04" ypos="123.229" zpos="-59.2175" type="kreskys_markers.hero_point.hot.normal.trail.mastery" />
-		<POI MapID="1052" xpos="640.615" ypos="124.91" zpos="-55.0358" type="kreskys_markers.hero_point.hot.normal.skillassist" iconFile="Data\KreskysMarkers\hp_glide.png" />
+		<POI MapID="1052" xpos="640.615" ypos="124.91" zpos="-55.0358" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
 		<POI MapID="1052" xpos="585.398" ypos="47.2361" zpos="-48.4767" type="kreskys_markers.hero_point.hot.normal.trail.mastery" />
 		<POI MapID="1052" xpos="583.697" ypos="9.11864" zpos="-39.328" type="kreskys_markers.hero_point.hot.normal.waypoint" iconFile="Data\KreskysMarkers\hot_hp_vb_tp_shipwreck_peak.png" />
 
         <Trail type="kreskys_markers.hero_point.hot.normal.trail" trailData="Data\KreskysMarkers\hot_hp_vb_2.trl" />
+        <POI MapID="1052" xpos="930.577" ypos="419.199" zpos="54.6808" type="kreskys_markers.hero_point.hot.normal.trail" iconFile="Data\KreskysMarkers\hp_2.png"/>
+        <POI MapID="1052" xpos="907.883" ypos="421.078" zpos="76.9232" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+		<POI MapID="1052" xpos="655.437" ypos="371.684" zpos="376.389" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+		<POI MapID="1052" xpos="338.411" ypos="460.645" zpos="260.575" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+        <Trail type="kreskys_markers.hero_point.hot.normal.trail" trailData="Data\KreskysMarkers\hot_hp_vb_2_alt.trl" texture="Data\KreskysMarkers\trail_red.png" />
+        <POI MapID="1052" xpos="235.938" ypos="441.52" zpos="250.423" type="kreskys_markers.hero_point.hot.normal.skillassist.mount" iconFile="Data\KreskysMarkers\mount_springer.png" />
+		<POI MapID="1052" xpos="209.202" ypos="470.328" zpos="305.183" type="kreskys_markers.hero_point.hot.normal.skillassist.mount" iconFile="Data\KreskysMarkers\mount_springer.png" />
+		<POI MapID="1052" xpos="136.238" ypos="557.146" zpos="313.707" type="kreskys_markers.hero_point.hot.normal.skillassist.mount" iconFile="Data\KreskysMarkers\mount_springer.png" />
+		<POI MapID="1052" xpos="291.324" ypos="451.966" zpos="252.296" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+		<POI MapID="1052" xpos="275.987" ypos="454.064" zpos="258.54" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
 
         <Trail type="kreskys_markers.hero_point.hot.normal.trail" trailData="Data\KreskysMarkers\hot_hp_vb_3.trl" />
-        <POI MapID="1052" xpos="358.315" ypos="164.556" zpos="141.865" type="kreskys_markers.hero_point.hot.normal.waypoint" iconFile="Data\KreskysMarkers\hot_hp_vb_tp_pact_encampment.png"/>
+		<POI MapID="1052" xpos="210.385" ypos="582.683" zpos="223.799" type="kreskys_markers.hero_point.hot.normal.trail" iconFile="Data\KreskysMarkers\hp_3.png" />
+        <POI MapID="1052" xpos="224.7" ypos="582.124" zpos="236.793" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+		<POI MapID="1052" xpos="283.419" ypos="549.452" zpos="263.642" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
 
         <Trail type="kreskys_markers.hero_point.hot.normal.trail" trailData="Data\KreskysMarkers\hot_hp_vb_4.trl" />
-        <POI MapID="1052" xpos="-77.4906" ypos="27.1517" zpos="-132.611" type="kreskys_markers.hero_point.hot.normal.waypoint" iconFile="Data\KreskysMarkers\hot_hp_vb_tp_pact_encampment.png"/>
+        <POI MapID="1052" xpos="523.61" ypos="415.477" zpos="301.529" type="kreskys_markers.hero_point.hot.normal.trail" iconFile="Data\KreskysMarkers\hp_4.png" />
+        <POI MapID="1052" xpos="510.037" ypos="410.878" zpos="275.223" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+		<POI MapID="1052" xpos="218.206" ypos="420.085" zpos="42.6907" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+		<POI MapID="1052" xpos="369.337" ypos="194.055" zpos="145.544" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+        <POI MapID="1052" xpos="358.315" ypos="164.556" zpos="141.865" type="kreskys_markers.hero_point.hot.normal.waypoint" iconFile="Data\KreskysMarkers\hot_hp_vb_tp_pact_encampment.png"/>
 
         <Trail type="kreskys_markers.hero_point.hot.normal.trail" trailData="Data\KreskysMarkers\hot_hp_vb_5.trl" />
-        <POI MapID="1052" xpos="617.351" ypos="456.276" zpos="-425.502" type="kreskys_markers.hero_point.hot.normal.waypoint" iconFile="Data\KreskysMarkers\hot_hp_vb_tp_shrouded_ruins.png"/>
+        <POI MapID="1052" xpos="125.628" ypos="429.774" zpos="-27.305" type="kreskys_markers.hero_point.hot.normal.trail" iconFile="Data\KreskysMarkers\hp_5.png" />
+		<POI MapID="1052" xpos="120.673" ypos="427.457" zpos="-27.4316" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+		<POI MapID="1052" xpos="26.024" ypos="387.969" zpos="-70.2736" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+		<POI MapID="1052" xpos="-79.4584" ypos="376.13" zpos="-124.14" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+		<POI MapID="1052" xpos="-108.489" ypos="52.5567" zpos="-134.674" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+        <POI MapID="1052" xpos="-77.4906" ypos="27.1517" zpos="-132.611" type="kreskys_markers.hero_point.hot.normal.waypoint" iconFile="Data\KreskysMarkers\hot_hp_vb_tp_pact_encampment.png" />
 
         <Trail type="kreskys_markers.hero_point.hot.normal.trail" trailData="Data\KreskysMarkers\hot_hp_vb_6.trl" />
+        <POI MapID="1052" xpos="141.374" ypos="430.048" zpos="-36.9123" type="kreskys_markers.hero_point.hot.normal.trail" iconFile="Data\KreskysMarkers\hp_6.png" />
+        <POI MapID="1052" xpos="142.539" ypos="426.065" zpos="-54.7947" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+		<POI MapID="1052" xpos="136.201" ypos="407.21" zpos="-101.986" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+        <POI MapID="1052" xpos="617.351" ypos="456.276" zpos="-425.502" type="kreskys_markers.hero_point.hot.normal.waypoint" iconFile="Data\KreskysMarkers\hot_hp_vb_tp_pact_encampment.png" />
 
         <Trail type="kreskys_markers.hero_point.hot.normal.trail" trailData="Data\KreskysMarkers\hot_hp_vb_7.trl" />
+        <POI MapID="1052" xpos="123.462" ypos="429.133" zpos="-35.0781" type="kreskys_markers.hero_point.hot.normal.trail" iconFile="Data\KreskysMarkers\hp_7.png" />
+        <POI MapID="1052" xpos="108.992" ypos="429.192" zpos="-59.3671" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+		<POI MapID="1052" xpos="-185.467" ypos="432.897" zpos="-178.155" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+		<POI MapID="1052" xpos="-370.432" ypos="411.804" zpos="-271.828" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+		<POI MapID="1052" xpos="-473.788" ypos="608.24" zpos="-293.469" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+		<POI MapID="1052" xpos="-566.972" ypos="617.948" zpos="-191.891" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
 
         <Trail type="kreskys_markers.hero_point.hot.normal.trail" trailData="Data\KreskysMarkers\hot_hp_vb_8.trl" />
-        <POI MapID="1052" xpos="-600.132" ypos="443.703" zpos="189.172" type="kreskys_markers.hero_point.hot.normal.waypoint" iconFile="Data\KreskysMarkers\hot_hp_vb_tp_farens_flyer.png"/>
+        <POI MapID="1052" xpos="-674.513" ypos="563.162" zpos="-128.734" type="kreskys_markers.hero_point.hot.normal.trail" iconFile="Data\KreskysMarkers\hp_8.png" />
+        <POI MapID="1052" xpos="-694.277" ypos="575.447" zpos="-82.6755" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+		<POI MapID="1052" xpos="-564.735" ypos="519.409" zpos="172.384" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+		<POI MapID="1052" xpos="-596.626" ypos="449.571" zpos="204.812" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+        <POI MapID="1052" xpos="-600.132" ypos="443.703" zpos="189.172" type="kreskys_markers.hero_point.hot.normal.waypoint" iconFile="Data\KreskysMarkers\hot_hp_vb_tp_farens_flyer.png" />
 
         <Trail type="kreskys_markers.hero_point.hot.normal.trail" trailData="Data\KreskysMarkers\hot_hp_vb_9.trl" />
-        <POI MapID="1052" xpos="-325.496" ypos="584.07" zpos="-230.782" type="kreskys_markers.hero_point.hot.normal.waypoint" iconFile="Data\KreskysMarkers\hot_hp_vb_tp_farens_flyer.png"/>
+        <POI MapID="1052" xpos="-524.573" ypos="515.725" zpos="-285.054" type="kreskys_markers.hero_point.hot.normal.trail" iconFile="Data\KreskysMarkers\hp_9.png" />
+        <POI MapID="1052" xpos="-324.966" ypos="570.882" zpos="-283.94" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+        <POI MapID="1052" xpos="-325.496" ypos="584.07" zpos="-230.782" type="kreskys_markers.hero_point.hot.normal.waypoint" iconFile="Data\KreskysMarkers\hot_hp_vb_tp_farens_flyer.png" />
 
         <Trail type="kreskys_markers.hero_point.hot.normal.trail" trailData="Data\KreskysMarkers\hot_hp_vb_10.trl" />
-        <POI MapID="1052" xpos="-398.715" ypos="148.125" zpos="-116.258" type="kreskys_markers.hero_point.hot.normal.waypoint" iconFile="Data\KreskysMarkers\hot_hp_vb_tp_farens_flyer.png"/>
+        <POI MapID="1052" xpos="-518.955" ypos="513.449" zpos="-274.623" type="kreskys_markers.hero_point.hot.normal.trail" iconFile="Data\KreskysMarkers\hp_10.png" />
+        <POI MapID="1052" xpos="-437.854" ypos="489.4" zpos="-179.584" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+		<POI MapID="1052" xpos="-408.064" ypos="415.581" zpos="-101.869" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+		<POI MapID="1052" xpos="-402.792" ypos="354.573" zpos="-103.505" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+		<POI MapID="1052" xpos="-407.438" ypos="299.611" zpos="-127.175" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+		<POI MapID="1052" xpos="-400.414" ypos="160.49" zpos="-119.889" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+        <POI MapID="1052" xpos="-398.715" ypos="148.125" zpos="-116.258" type="kreskys_markers.hero_point.hot.normal.waypoint" iconFile="Data\KreskysMarkers\hot_hp_vb_tp_farens_flyer.png" />
 
         <Trail type="kreskys_markers.hero_point.hot.normal.trail" trailData="Data\KreskysMarkers\hot_hp_vb_11.trl" />
-        <POI MapID="1052" xpos="-701.862" ypos="361.752" zpos="-351.203" type="kreskys_markers.hero_point.hot.normal.waypoint" iconFile="Data\KreskysMarkers\hot_hp_vb_tp_treacherous_path.png"/>
+        <POI MapID="1052" xpos="-528.968" ypos="512.84" zpos="-277.97" type="kreskys_markers.hero_point.hot.normal.trail" iconFile="Data\KreskysMarkers\hp_11.png" />
+        <POI MapID="1052" xpos="-611.911" ypos="500.9" zpos="-325.273" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+		<POI MapID="1052" xpos="-643.024" ypos="451.363" zpos="-402.574" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+		<POI MapID="1052" xpos="-733.217" ypos="374.023" zpos="-385.088" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+        <POI MapID="1052" xpos="-701.862" ypos="361.752" zpos="-351.203" type="kreskys_markers.hero_point.hot.normal.waypoint" iconFile="Data\KreskysMarkers\hot_hp_vb_tp_treacherous_path.png" />
 	</POIs>
 
 </OverlayData>
