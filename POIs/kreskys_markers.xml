@@ -40,6 +40,7 @@
 		<POI MapID="1052" xpos="655.437" ypos="371.684" zpos="376.389" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
 		<POI MapID="1052" xpos="338.411" ypos="460.645" zpos="260.575" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
         <Trail type="kreskys_markers.hero_point.hot.normal.trail" trailData="Data\KreskysMarkers\hot_hp_vb_2_alt.trl" texture="Data\KreskysMarkers\trail_red.png" />
+        <Trail type="kreskys_markers.hero_point.hot.normal.trail" trailData="Data\KreskysMarkers\hot_hp_vb_2_alt2.trl" texture="Data\KreskysMarkers\trail_red.png" />
         <POI MapID="1052" xpos="235.938" ypos="441.52" zpos="250.423" type="kreskys_markers.hero_point.hot.normal.skillassist.mount" iconFile="Data\KreskysMarkers\mount_springer.png" />
 		<POI MapID="1052" xpos="209.202" ypos="470.328" zpos="305.183" type="kreskys_markers.hero_point.hot.normal.skillassist.mount" iconFile="Data\KreskysMarkers\mount_springer.png" />
 		<POI MapID="1052" xpos="136.238" ypos="557.146" zpos="313.707" type="kreskys_markers.hero_point.hot.normal.skillassist.mount" iconFile="Data\KreskysMarkers\mount_springer.png" />
