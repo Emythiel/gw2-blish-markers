@@ -22,6 +22,7 @@
 	</MarkerCategory>
 
 	<POIs>
+        <!-- VERDANT BRINK -->
 		<POI MapID="1052" xpos="864.803" ypos="431.35" zpos="50.9264" type="kreskys_markers.hero_point.hot.normal" iconFile="Data\KreskysMarkers\hot_hp_start.png" />
 		<Trail type="kreskys_markers.hero_point.hot.normal.trail" trailData="Data\KreskysMarkers\hot_hp_vb_1.trl" />
         <POI MapID="1052" xpos="860.362" ypos="431.565" zpos="48.8949" type="kreskys_markers.hero_point.hot.normal.trail" iconFile="Data\KreskysMarkers\hp_1.png" />
@@ -98,8 +99,7 @@
         <POI MapID="1052" xpos="-437.854" ypos="489.4" zpos="-179.584" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
 		<POI MapID="1052" xpos="-408.064" ypos="415.581" zpos="-101.869" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
 		<POI MapID="1052" xpos="-402.792" ypos="354.573" zpos="-103.505" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
-		<POI MapID="1052" xpos="-407.438" ypos="299.611" zpos="-127.175" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
-		<POI MapID="1052" xpos="-400.414" ypos="160.49" zpos="-119.889" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
+        <POI MapID="1052" xpos="-424.841" ypos="163.384" zpos="-122.905" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
         <POI MapID="1052" xpos="-398.715" ypos="148.125" zpos="-116.258" type="kreskys_markers.hero_point.hot.normal.waypoint" iconFile="Data\KreskysMarkers\hot_hp_vb_tp_farens_flyer.png" />
 
         <Trail type="kreskys_markers.hero_point.hot.normal.trail" trailData="Data\KreskysMarkers\hot_hp_vb_11.trl" />
@@ -108,6 +108,10 @@
 		<POI MapID="1052" xpos="-643.024" ypos="451.363" zpos="-402.574" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
 		<POI MapID="1052" xpos="-733.217" ypos="374.023" zpos="-385.088" type="kreskys_markers.hero_point.hot.normal.skillassist.glide" />
         <POI MapID="1052" xpos="-701.862" ypos="361.752" zpos="-351.203" type="kreskys_markers.hero_point.hot.normal.waypoint" iconFile="Data\KreskysMarkers\hot_hp_vb_tp_treacherous_path.png" />
+
+        <Trail type="kreskys_markers.hero_point.hot.normal.trail" trailData="Data\KreskysMarkers\hot_hp_vb_fin.trl" texture="Data\KreskysMarkers\trail_white.png" />
+
+        <!-- AURIC BASIN -->
 	</POIs>
 
 </OverlayData>
