@@ -10,12 +10,10 @@
                         </MarkerCategory>
                         <MarkerCategory name="waypoint" DisplayName="Waypoints" />
                         <MarkerCategory name="note" DisplayName="Notes" />
-                        <MarkerCategory name="regroup" DisplayName="Regroupings" iconFile="Data\KreskysMarkers\hp_regroup.png" />
                         <MarkerCategory name="skillassist" DisplayName="Skill Assistances">
                             <MarkerCategory name="portal" DisplayName="Mesmer Portals" />
                             <MarkerCategory name="mount" DisplayName="Mounts" />
-                            <MarkerCategory name="glide" DisplayName="Gliding" iconFile="Data\KreskysMarkers\hp_glide.png" />
-                            <MarkerCategory name="mushroom" DisplayName="Bouncing Mushroom" />
+                            <MarkerCategory name="glide" DisplayName="Gliding" iconFile="Data\KreskysMarkers\skill_glide.png" />
                         </MarkerCategory>
                     </MarkerCategory>
                 </MarkerCategory>
@@ -26,12 +24,10 @@
                         </MarkerCategory>
                         <MarkerCategory name="waypoint" DisplayName="Waypoints" />
                         <MarkerCategory name="note" DisplayName="Notes" />
-                        <MarkerCategory name="regroup" DisplayName="Regroupings" iconFile="Data\KreskysMarkers\hp_regroup.png" />
                         <MarkerCategory name="skillassist" DisplayName="Skill Assistances">
                             <MarkerCategory name="portal" DisplayName="Mesmer Portals" />
                             <MarkerCategory name="mount" DisplayName="Mounts" />
-                            <MarkerCategory name="glide" DisplayName="Gliding" iconFile="Data\KreskysMarkers\hp_glide.png" />
-                            <MarkerCategory name="mushroom" DisplayName="Bouncing Mushroom" />
+                            <MarkerCategory name="glide" DisplayName="Gliding" iconFile="Data\KreskysMarkers\skill_glide.png" />
                         </MarkerCategory>
                     </MarkerCategory>
                 </MarkerCategory>
@@ -42,12 +38,10 @@
                         </MarkerCategory>
                         <MarkerCategory name="waypoint" DisplayName="Waypoints" />
                         <MarkerCategory name="note" DisplayName="Notes" />
-                        <MarkerCategory name="regroup" DisplayName="Regroupings" iconFile="Data\KreskysMarkers\hp_regroup.png" />
                         <MarkerCategory name="skillassist" DisplayName="Skill Assistances">
                             <MarkerCategory name="portal" DisplayName="Mesmer Portals" />
                             <MarkerCategory name="mount" DisplayName="Mounts" />
-                            <MarkerCategory name="glide" DisplayName="Gliding" iconFile="Data\KreskysMarkers\hp_glide.png" />
-                            <MarkerCategory name="mushroom" DisplayName="Bouncing Mushroom" />
+                            <MarkerCategory name="glide" DisplayName="Gliding" iconFile="Data\KreskysMarkers\skill_glide.png" />
                         </MarkerCategory>
                     </MarkerCategory>
                 </MarkerCategory>
@@ -60,18 +54,15 @@
     <!-----HERO POINT TRAIN----->
     <!-------------------------->
 
-        <!-- VERDANT BRINK -->
+    <!-- VERDANT BRINK -->
 
         <POI MapID="1052" xpos="864.803" ypos="431.35" zpos="50.9264" type="kreskys_markers.hero_point.hot.vb.normal" iconFile="Data\KreskysMarkers\hot_hp_start.png" />
         <Trail type="kreskys_markers.hero_point.hot.vb.normal.trail" trailData="Data\KreskysMarkers\hot_hp_vb_1.trl" />
         <POI MapID="1052" xpos="860.362" ypos="431.565" zpos="48.8949" type="kreskys_markers.hero_point.hot.vb.normal.trail" iconFile="Data\KreskysMarkers\hp_1.png" />
         <Trail type="kreskys_markers.hero_point.hot.vb.normal.trail.mastery" trailData="Data\KreskysMarkers\hot_hp_vb_1_mastery.trl" />
         <POI MapID="1052" xpos="855.854" ypos="432.412" zpos="44.9107" type="kreskys_markers.hero_point.hot.vb.normal.skillassist.glide" />
-        <POI MapID="1052" xpos="737.153" ypos="368.18" zpos="-24.0651" type="kreskys_markers.hero_point.hot.vb.normal.regroup" />
         <POI MapID="1052" xpos="732.376" ypos="367.54" zpos="-25.6562" type="kreskys_markers.hero_point.hot.vb.normal.skillassist.glide" />
-        <POI MapID="1052" xpos="643.04" ypos="123.229" zpos="-59.2175" type="kreskys_markers.hero_point.hot.vb.normal.trail.mastery" />
         <POI MapID="1052" xpos="640.615" ypos="124.91" zpos="-55.0358" type="kreskys_markers.hero_point.hot.vb.normal.skillassist.glide" />
-        <POI MapID="1052" xpos="585.398" ypos="47.2361" zpos="-48.4767" type="kreskys_markers.hero_point.hot.vb.normal.trail.mastery" />
         <POI MapID="1052" xpos="583.697" ypos="9.11864" zpos="-39.328" type="kreskys_markers.hero_point.hot.vb.normal.waypoint" iconFile="Data\KreskysMarkers\hot_hp_vb_tp_shipwreck_peak.png" />
 
         <Trail type="kreskys_markers.hero_point.hot.vb.normal.trail" trailData="Data\KreskysMarkers\hot_hp_vb_2.trl" />
@@ -162,7 +153,7 @@
 
         <Trail type="kreskys_markers.hero_point.hot.vb.normal.trail" trailData="Data\KreskysMarkers\hot_hp_vb_fin.trl" texture="Data\KreskysMarkers\trail_white.png" />
 
-        <!-- AURIC BASIN -->
+    <!-- AURIC BASIN -->
 
         <Trail type="kreskys_markers.hero_point.hot.ab.normal.trail" trailData="Data\KreskysMarkers\hot_hp_ab_start.trl" texture="Data\KreskysMarkers\trail_white.png" />
 
@@ -239,7 +230,7 @@
 
         <Trail type="kreskys_markers.hero_point.hot.ab.normal.trail" trailData="Data\KreskysMarkers\hot_hp_ab_fin.trl" texture="Data\KreskysMarkers\trail_white.png" />
 
-        <!-- TANGLED DEPTHS -->
+    <!-- TANGLED DEPTHS -->
 
         <Trail type="kreskys_markers.hero_point.hot.td.normal.trail" trailData="Data\KreskysMarkers\hot_hp_td_start.trl" texture="Data\KreskysMarkers\trail_white.png" />
 
