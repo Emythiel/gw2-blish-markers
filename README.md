@@ -1,5 +1,5 @@
-# Kresky's TacO Markers
-TacO Marker Pack for Guild Wars 2
+# Kresky's GW2 Markers
+Marker Pack for Guild Wars 2
 
 ## Credits
 Thanks to Czokalapik and Tehs for their trails, based the route mostly on those with some slight tweaks.  
