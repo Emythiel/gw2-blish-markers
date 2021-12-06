@@ -9,7 +9,7 @@
                 <!-- VERDANT BRINK -->
                 <MarkerCategory name="vb" DisplayName="Verdant Brink">
                     <MarkerCategory name="trail" DisplayName="Trails" animSpeed="0.2" texture="data\trails\trail_yellow.png" />
-                    <MarkerCategory name="wp" DisplayName="Waypoints" />
+                    <MarkerCategory name="waypoint" DisplayName="Waypoints" />
                     <MarkerCategory name="note" DisplayName="Notes" />
                     <MarkerCategory name="skillassist" DisplayName="Skill Assistances">
                         <MarkerCategory name="portal" DisplayName="Mesmer Portals" />
