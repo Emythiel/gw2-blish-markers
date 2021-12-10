@@ -145,7 +145,7 @@
             <!-- HP 7 -->
             <Trail type="ksr_markers.hptour.hot.ab.trail" trailData="data\hptour\heartofthorns\auricbasin\trails\hptour_hot_ab_7.trl" />
             <Trail type="ksr_markers.hptour.hot.ab.trail" trailData="data\hptour\heartofthorns\auricbasin\trails\hptour_hot_ab_7_portal.trl" />
-            <POI MapID="1043" xpos="122.761" ypos="198.955" zpos="118.898" type="ksr_markers.hptour.hot.ab.trail" iconFile="data\hptour\hptour_7.png" />
+            <POI MapID="1043" xpos="64.2147" ypos="329.811" zpos="481.482" type="ksr_markers.hptour.hot.ab.trail" iconFile="data\hptour\hptour_7.png" />
             <POI MapID="1043" xpos="268.15" ypos="370.547" zpos="600.91" type="ksr_markers.hptour.hot.ab.skillassist.portal" iconFile="data\skills\skill_portal_entrance.png" />
             <POI MapID="1043" xpos="296.447" ypos="424.125" zpos="685.859" type="ksr_markers.hptour.hot.ab.skillassist.portal" iconFile="data\skills\skill_portal_exit.png" />
             <POI MapID="1043" xpos="306.312" ypos="383.257" zpos="658.606" type="ksr_markers.hptour.hot.ab.skillassist.mount" iconFile="data\mounts\mount_skyscale.png" />
