@@ -11,6 +11,7 @@
                     <MarkerCategory name="trail" DisplayName="Trails" animSpeed="0.4" texture="data\trails\trail_yellow.png" />
                     <MarkerCategory name="waypoint" DisplayName="Waypoints" iconSize="2" mapVisibility="0" minimapVisibility="0" />
                     <MarkerCategory name="note" DisplayName="Notes" iconSize="2" mapVisibility="0" minimapVisibility="0" />
+                    <MarkerCategory name="clipboard" DisplayName="Clipboard Messages" iconFile="data\other\text_dialogue.png" heightOffset="1.5" mapVisibility="0" minimapVisibility="0" />
                     <MarkerCategory name="skillassist" DisplayName="Skill Assistances">
                         <MarkerCategory name="portal" DisplayName="Mesmer Portals" heightOffset="0.5" mapVisibility="0" minimapVisibility="0" />
                         <MarkerCategory name="mount" DisplayName="Mounts" heightOffset="1" iconSize="1.5" mapVisibility="0" minimapVisibility="0" />
@@ -22,6 +23,7 @@
                     <MarkerCategory name="trail" DisplayName="Trails" animSpeed="0.4" texture="data\trails\trail_yellow.png" />
                     <MarkerCategory name="wp" DisplayName="Waypoints" iconSize="2" mapVisibility="0" minimapVisibility="0" />
                     <MarkerCategory name="note" DisplayName="Notes" iconSize="2" mapVisibility="0" minimapVisibility="0" />
+                    <MarkerCategory name="clipboard" DisplayName="Clipboard Messages" heightOffset="1.5" mapVisibility="0" minimapVisibility="0" />
                     <MarkerCategory name="skillassist" DisplayName="Skill Assistances">
                         <MarkerCategory name="portal" DisplayName="Mesmer Portals" heightOffset="0.5" mapVisibility="0" minimapVisibility="0" />
                         <MarkerCategory name="mount" DisplayName="Mounts" heightOffset="1" iconSize="1.5" mapVisibility="0" minimapVisibility="0" />
@@ -33,6 +35,7 @@
                     <MarkerCategory name="trail" DisplayName="Trails" animSpeed="0.4" texture="data\trails\trail_yellow.png" />
                     <MarkerCategory name="wp" DisplayName="Waypoints" iconSize="2" mapVisibility="0" minimapVisibility="0" />
                     <MarkerCategory name="note" DisplayName="Notes" iconSize="2" mapVisibility="0" minimapVisibility="0" />
+                    <MarkerCategory name="clipboard" DisplayName="Clipboard Messages" heightOffset="1.5" mapVisibility="0" minimapVisibility="0" />
                     <MarkerCategory name="skillassist" DisplayName="Skill Assistances">
                         <MarkerCategory name="portal" DisplayName="Mesmer Portals" heightOffset="0.5" mapVisibility="0" minimapVisibility="0" />
                         <MarkerCategory name="mount" DisplayName="Mounts" heightOffset="1" iconSize="1.5" mapVisibility="0" minimapVisibility="0" />
@@ -54,13 +57,14 @@
             <Trail type="ksr_markers.hptour.hot.vb.trail" trailData="data\hptour\heartofthorns\verdantbrink\trails\hptour_hot_vb_1.trl" />
             <Trail type="ksr_markers.hptour.hot.vb.trail" trailData="data\hptour\heartofthorns\verdantbrink\trails\hptour_hot_vb_1_mastery.trl" texture="data\trails\trail_green.png" />
             <POI MapID="1052" xpos="860.362" ypos="431.565" zpos="48.8949" type="ksr_markers.hptour.hot.vb.trail" iconFile="data\hptour\hptour_1.png" mapDisplaySize="50" />
-            <POI MapID="1052" xpos="583.697" ypos="9.11864" zpos="-39.328" type="ksr_markers.hptour.hot.vb.waypoint" iconFile="data\hptour\heartofthorns\verdantbrink\waypoints\hptour_hot_vb_wp_shipwreck-peak.png" />
+            <POI MapID="1052" xpos="736.465" ypos="368.128" zpos="-25.7731" type="ksr_markers.hptour.hot.vb.clipboard" copy="Drop down to the bottom, careful you don't go splat on the ground." copy-message="'Drop down, be careful' copied to clipboard!" />
+            <POI MapID="1052" xpos="583.697" ypos="9.11864" zpos="-39.328" type="ksr_markers.hptour.hot.vb.waypoint" iconFile="data\hptour\heartofthorns\verdantbrink\waypoints\hptour_hot_vb_wp_shipwreck-peak.png" copy="TP to [&BN4HAAA=]" copy-message="'TP to Shipwreck Peak Waypoint' copied to clipboard!" />
             <!-- HP 2 -->
             <Trail type="ksr_markers.hptour.hot.vb.trail" trailData="data\hptour\heartofthorns\verdantbrink\trails\hptour_hot_vb_2.trl" />
             <POI MapID="1052" xpos="937.189" ypos="417.536" zpos="43.5835" type="ksr_markers.hptour.hot.vb.trail" iconFile="data\hptour\hptour_2.png" mapDisplaySize="50" />
             <POI MapID="1052" xpos="656.591" ypos="397.169" zpos="-355.914" type="ksr_markers.hptour.hot.vb.skillassist.portal" iconFile="data\skills\skill_portal_entrance.png" />
             <POI MapID="1052" xpos="665.067" ypos="435.758" zpos="-382.417" type="ksr_markers.hptour.hot.vb.skillassist.portal" iconFile="data\skills\skill_portal_exit.png" />
-            <POI MapID="1052" xpos="617.351" ypos="456.276" zpos="-425.502" type="ksr_markers.hptour.hot.vb.waypoint" iconFile="data\hptour\heartofthorns\verdantbrink\waypoints\hptour_hot_vb_wp_shipwreck-peak.png" />
+            <POI MapID="1052" xpos="617.351" ypos="456.276" zpos="-425.502" type="ksr_markers.hptour.hot.vb.waypoint" iconFile="data\hptour\heartofthorns\verdantbrink\waypoints\hptour_hot_vb_wp_shipwreck-peak.png" copy="TP to [&BN4HAAA=]" copy-message="'TP to Shipwreck Peak Waypoint' copied to clipboard!" />
             <!-- HP 3 -->
             <Trail type="ksr_markers.hptour.hot.vb.trail" trailData="data\hptour\heartofthorns\verdantbrink\trails\hptour_hot_vb_3.trl" />
             <POI MapID="1052" xpos="930.577" ypos="419.199" zpos="54.6808" type="ksr_markers.hptour.hot.vb.trail" iconFile="data\hptour\hptour_3.png" mapDisplaySize="50" />
@@ -78,11 +82,11 @@
             <!-- HP 5 -->
             <Trail type="ksr_markers.hptour.hot.vb.trail" trailData="data\hptour\heartofthorns\verdantbrink\trails\hptour_hot_vb_5.trl" />
             <POI MapID="1052" xpos="199.905" ypos="582.367" zpos="214.433" type="ksr_markers.hptour.hot.vb.trail" iconFile="data\hptour\hptour_5.png" mapDisplaySize="50" />
-            <POI MapID="1052" xpos="358.315" ypos="164.556" zpos="141.865" type="ksr_markers.hptour.hot.vb.waypoint" iconFile="data\hptour\heartofthorns\verdantbrink\waypoints\hptour_hot_vb_wp_pact-encampment.png" />
+            <POI MapID="1052" xpos="358.315" ypos="164.556" zpos="141.865" type="ksr_markers.hptour.hot.vb.waypoint" iconFile="data\hptour\heartofthorns\verdantbrink\waypoints\hptour_hot_vb_wp_pact-encampment.png" copy="TP to [&BAgIAAA=]" copy-message="'TP to Pact Encampment Waypoint' copied to clipboard!" />
             <!-- HP 6 -->
             <Trail type="ksr_markers.hptour.hot.vb.trail" trailData="data\hptour\heartofthorns\verdantbrink\trails\hptour_hot_vb_6.trl" />
             <POI MapID="1052" xpos="128.453" ypos="429.076" zpos="-30.9897" type="ksr_markers.hptour.hot.vb.trail" iconFile="data\hptour\hptour_6.png" mapDisplaySize="50" />
-            <POI MapID="1052" xpos="-77.4906" ypos="27.1517" zpos="-132.611" type="ksr_markers.hptour.hot.vb.waypoint" iconFile="data\hptour\heartofthorns\verdantbrink\waypoints\hptour_hot_vb_wp_pact-encampment.png" />
+            <POI MapID="1052" xpos="-77.4906" ypos="27.1517" zpos="-132.611" type="ksr_markers.hptour.hot.vb.waypoint" iconFile="data\hptour\heartofthorns\verdantbrink\waypoints\hptour_hot_vb_wp_pact-encampment.png" copy="TP to [&BAgIAAA=]" copy-message="'TP to Pact Encampment Waypoint' copied to clipboard!" />
             <!-- HP 7 -->
             <Trail type="ksr_markers.hptour.hot.vb.trail" trailData="data\hptour\heartofthorns\verdantbrink\trails\hptour_hot_vb_7.trl" />
             <POI MapID="1052" xpos="140.905" ypos="430.092" zpos="-37.7675" type="ksr_markers.hptour.hot.vb.trail" iconFile="data\hptour\hptour_7.png" mapDisplaySize="50" />
@@ -93,18 +97,18 @@
             <POI MapID="1052" xpos="-674.513" ypos="563.162" zpos="-128.734" type="ksr_markers.hptour.hot.vb.trail" iconFile="data\hptour\hptour_8.png" mapDisplaySize="50" />
             <POI MapID="1052" xpos="-658.924" ypos="451.69" zpos="178.767" type="ksr_markers.hptour.hot.vb.skillassist.portal" iconFile="data\skills\skill_portal_entrance.png" />
             <POI MapID="1052" xpos="-604.259" ypos="443.333" zpos="190.53" type="ksr_markers.hptour.hot.vb.skillassist.portal" iconFile="data\skills\skill_portal_exit.png" />
-            <POI MapID="1052" xpos="-600.132" ypos="443.703" zpos="189.172" type="ksr_markers.hptour.hot.vb.waypoint" iconFile="data\hptour\heartofthorns\verdantbrink\waypoints\hptour_hot_vb_wp_farens-flyer.png" />
+            <POI MapID="1052" xpos="-600.132" ypos="443.703" zpos="189.172" type="ksr_markers.hptour.hot.vb.waypoint" iconFile="data\hptour\heartofthorns\verdantbrink\waypoints\hptour_hot_vb_wp_farens-flyer.png" copy="TP to [&BO8HAAA=]" copy-message="'TP to Faren's Flyer Waypoint' copied to clipboard!" />
             <!-- HP 9 -->
             <Trail type="ksr_markers.hptour.hot.vb.trail" trailData="data\hptour\heartofthorns\verdantbrink\trails\hptour_hot_vb_9.trl" />
             <POI MapID="1052" xpos="-524.573" ypos="515.725" zpos="-285.054" type="ksr_markers.hptour.hot.vb.trail" iconFile="data\hptour\hptour_9.png" mapDisplaySize="50" />
             <!-- HP 10 -->
             <Trail type="ksr_markers.hptour.hot.vb.trail" trailData="data\hptour\heartofthorns\verdantbrink\trails\hptour_hot_vb_10.trl" />
             <POI MapID="1052" xpos="-327.995" ypos="581.985" zpos="-232.871" type="ksr_markers.hptour.hot.vb.trail" iconFile="data\hptour\hptour_10.png" mapDisplaySize="50" />
-            <POI MapID="1052" xpos="-398.715" ypos="148.125" zpos="-116.258" type="ksr_markers.hptour.hot.vb.waypoint" iconFile="data\hptour\heartofthorns\verdantbrink\waypoints\hptour_hot_vb_wp_farens-flyer.png" />
+            <POI MapID="1052" xpos="-398.715" ypos="148.125" zpos="-116.258" type="ksr_markers.hptour.hot.vb.waypoint" iconFile="data\hptour\heartofthorns\verdantbrink\waypoints\hptour_hot_vb_wp_farens-flyer.png" copy="TP to [&BO8HAAA=]" copy-message="'TP to Faren's Flyer Waypoint' copied to clipboard!" />
             <!-- HP 11 -->
             <Trail type="ksr_markers.hptour.hot.vb.trail" trailData="data\hptour\heartofthorns\verdantbrink\trails\hptour_hot_vb_11.trl" />
             <POI MapID="1052" xpos="-528.968" ypos="512.84" zpos="-277.97" type="ksr_markers.hptour.hot.vb.trail" iconFile="data\hptour\hptour_11.png" mapDisplaySize="50" />
-            <POI MapID="1052" xpos="-701.862" ypos="361.752" zpos="-351.203" type="ksr_markers.hptour.hot.vb.waypoint" iconFile="data\hptour\heartofthorns\verdantbrink\waypoints\hptour_hot_vb_wp_treacherous-path.png" />
+            <POI MapID="1052" xpos="-701.862" ypos="361.752" zpos="-351.203" type="ksr_markers.hptour.hot.vb.waypoint" iconFile="data\hptour\heartofthorns\verdantbrink\waypoints\hptour_hot_vb_wp_treacherous-path.png" copy="TP to [&BBwIAAA=]" copy-message="'TP to Treacherous Path Waypoint' copied to clipboard!" />
 
         <Trail type="ksr_markers.hptour.hot.vb.trail" trailData="data\hptour\heartofthorns\verdantbrink\trails\hptour_hot_vb_finish.trl" texture="data\trails\trail_white.png" />
 
@@ -130,14 +134,14 @@
             <POI MapID="1043" xpos="-183.26" ypos="267.604" zpos="-670.466" type="ksr_markers.hptour.hot.ab.skillassist.portal" iconFile="data\skills\skill_portal_entrance.png" />
             <POI MapID="1043" xpos="-204.217" ypos="263.411" zpos="-683.662" type="ksr_markers.hptour.hot.ab.skillassist.portal" iconFile="data\skills\skill_portal_exit.png" />
             <POI MapID="1043" xpos="-285.468" ypos="273.346" zpos="-747.494" type="ksr_markers.hptour.hot.ab.note" iconFile="data\hptour\heartofthorns\auricbasin\notes\hptour_hot_ab_note_balthazar.png" />
-            <POI MapID="1043" xpos="-317.254" ypos="278.242" zpos="-769.759" type="ksr_markers.hptour.hot.ab.waypoint" iconFile="data\hptour\heartofthorns\auricbasin\waypoints\hptour_hot_ab_wp_wanderers.png" />
+            <POI MapID="1043" xpos="-317.254" ypos="278.242" zpos="-769.759" type="ksr_markers.hptour.hot.ab.waypoint" iconFile="data\hptour\heartofthorns\auricbasin\waypoints\hptour_hot_ab_wp_wanderers.png" copy="TP to [&BNYHAAA=]" copy-message="'TP to Wanderer's Waypoint' copied to clipboard!" />
             <!-- HP 5 -->
             <Trail type="ksr_markers.hptour.hot.ab.trail" trailData="data\hptour\heartofthorns\auricbasin\trails\hptour_hot_ab_5.trl" />
             <POI MapID="1043" xpos="-371.696" ypos="475.19" zpos="669.202" type="ksr_markers.hptour.hot.ab.trail" iconFile="data\hptour\hptour_5.png" mapDisplaySize="50" />
             <!-- HP 6 -->
             <Trail type="ksr_markers.hptour.hot.ab.trail" trailData="data\hptour\heartofthorns\auricbasin\trails\hptour_hot_ab_6.trl" />
             <POI MapID="1043" xpos="122.761" ypos="198.955" zpos="118.898" type="ksr_markers.hptour.hot.ab.trail" iconFile="data\hptour\hptour_6.png" mapDisplaySize="50" />
-            <POI MapID="1043" xpos="-11.2381" ypos="20.7382" zpos="120.485" type="ksr_markers.hptour.hot.ab.waypoint" iconFile="data\hptour\heartofthorns\auricbasin\waypoints\hptour_hot_ab_wp_northwatch.png" />
+            <POI MapID="1043" xpos="-11.2381" ypos="20.7382" zpos="120.485" type="ksr_markers.hptour.hot.ab.waypoint" iconFile="data\hptour\heartofthorns\auricbasin\waypoints\hptour_hot_ab_wp_northwatch.png" copy="TP to [&BN0HAAA=]" copy-message="'TP to Northwatch Waypoint' copied to clipboard!" />
             <!-- HP 7 -->
             <Trail type="ksr_markers.hptour.hot.ab.trail" trailData="data\hptour\heartofthorns\auricbasin\trails\hptour_hot_ab_7.trl" />
             <Trail type="ksr_markers.hptour.hot.ab.trail" trailData="data\hptour\heartofthorns\auricbasin\trails\hptour_hot_ab_7_portal.trl" />
@@ -146,7 +150,7 @@
             <POI MapID="1043" xpos="296.447" ypos="424.125" zpos="685.859" type="ksr_markers.hptour.hot.ab.skillassist.portal" iconFile="data\skills\skill_portal_exit.png" />
             <POI MapID="1043" xpos="306.312" ypos="383.257" zpos="658.606" type="ksr_markers.hptour.hot.ab.skillassist.mount" iconFile="data\mounts\mount_skyscale.png" />
             <POI MapID="1043" xpos="313.876" ypos="377.754" zpos="718.425" type="ksr_markers.hptour.hot.ab.skillassist.mount" iconFile="data\mounts\mount_springer.png" />
-            <POI MapID="1043" xpos="341.391" ypos="418.979" zpos="772.474" type="ksr_markers.hptour.hot.ab.waypoint" iconFile="data\hptour\heartofthorns\auricbasin\waypoints\hptour_hot_ab_wp_northwatch.png" />
+            <POI MapID="1043" xpos="341.391" ypos="418.979" zpos="772.474" type="ksr_markers.hptour.hot.ab.waypoint" iconFile="data\hptour\heartofthorns\auricbasin\waypoints\hptour_hot_ab_wp_northwatch.png" copy="TP to [&BN0HAAA=]" copy-message="'TP to Northwatch Waypoint' copied to clipboard!" />
             <!-- HP 8 -->
             <Trail type="ksr_markers.hptour.hot.ab.trail" trailData="data\hptour\heartofthorns\auricbasin\trails\hptour_hot_ab_8.trl" />
             <POI MapID="1043" xpos="66.553" ypos="331.134" zpos="475.306" type="ksr_markers.hptour.hot.ab.trail" iconFile="data\hptour\hptour_8.png" mapDisplaySize="50" />
@@ -173,7 +177,7 @@
             <!-- HP 1 -->
             <Trail type="ksr_markers.hptour.hot.td.trail" trailData="data\hptour\heartofthorns\tangleddepths\trails\hptour_hot_td_1.trl" />
             <POI MapID="1045" xpos="-701.29" ypos="240.864" zpos="192.688" type="ksr_markers.hptour.hot.td.trail" iconFile="data\hptour\hptour_1.png" mapDisplaySize="50" />
-            <POI MapID="1045" xpos="-708.394" ypos="78.142" zpos="-48.243" type="ksr_markers.hptour.hot.td.waypoint" iconFile="data\hptour\heartofthorns\tangleddepths\waypoints\hptour_hot_td_wp_order-of-whispers-camp.png" />
+            <POI MapID="1045" xpos="-708.394" ypos="78.142" zpos="-48.243" type="ksr_markers.hptour.hot.td.waypoint" iconFile="data\hptour\heartofthorns\tangleddepths\waypoints\hptour_hot_td_wp_order-of-whispers-camp.png" copy="TP to [&BA4IAAA=]" copy-message="'TP to Order of Whispers Camp Waypoint' copied to clipboard!" />
             <!-- HP 2 -->
             <Trail type="ksr_markers.hptour.hot.td.trail" trailData="data\hptour\heartofthorns\tangleddepths\trails\hptour_hot_td_2.trl" />
             <POI MapID="1045" xpos="-698.658" ypos="241.874" zpos="198.531" type="ksr_markers.hptour.hot.td.trail" iconFile="data\hptour\hptour_2.png" mapDisplaySize="50" />
@@ -201,7 +205,7 @@
             <POI MapID="1045" xpos="213.713" ypos="185.739" zpos="128.589" type="ksr_markers.hptour.hot.td.note" iconFile="data\hptour\heartofthorns\tangleddepths\notes\hptour_hot_td_note_clear.png" />
             <POI MapID="1045" xpos="227.514" ypos="-0.646163" zpos="122.61" type="ksr_markers.hptour.hot.td.note" iconFile="data\hptour\heartofthorns\tangleddepths\notes\hptour_hot_td_note_city-defence.png" />
             <POI MapID="1045" xpos="519.025" ypos="7.54664" zpos="162.551" type="ksr_markers.hptour.hot.td.note" iconFile="data\hptour\heartofthorns\tangleddepths\notes\hptour_hot_td_note_city-defence.png" />
-            <POI MapID="1045" xpos="302.265" ypos="14.3356" zpos="-76.4814" type="ksr_markers.hptour.hot.td.waypoint" iconFile="data\hptour\heartofthorns\tangleddepths\waypoints\hptour_hot_td_wp_rata-novus.png" />
+            <POI MapID="1045" xpos="302.265" ypos="14.3356" zpos="-76.4814" type="ksr_markers.hptour.hot.td.waypoint" iconFile="data\hptour\heartofthorns\tangleddepths\waypoints\hptour_hot_td_wp_rata-novus.png" copy="TP to [&BAMIAAA=]" copy-message="'TP to Rata Novus Waypoint' copied to clipboard!" />
             <!-- HP 5 -->
             <Trail type="ksr_markers.hptour.hot.td.trail" trailData="data\hptour\heartofthorns\tangleddepths\trails\hptour_hot_td_5.trl" />
             <Trail type="ksr_markers.hptour.hot.td.trail" trailData="data\hptour\heartofthorns\tangleddepths\trails\hptour_hot_td_5_alt.trl" texture="data\trails\trail_red.png" />
@@ -210,7 +214,7 @@
             <POI MapID="1045" xpos="492.122" ypos="58.3338" zpos="445.989" type="ksr_markers.hptour.hot.td.skillassist.portal" iconFile="data\skills\skill_portal_exit.png" />
             <POI MapID="1045" xpos="531.292" ypos="31.1288" zpos="429.677" type="ksr_markers.hptour.hot.td.skillassist.mount" iconFile="data\mounts\mount_springer.png" />
             <POI MapID="1045" xpos="439.504" ypos="-138.962" zpos="144.433" type="ksr_markers.hptour.hot.td.note" iconFile="data\hptour\heartofthorns\tangleddepths\notes\hptour_hot_td_note_water-marking.png" />
-            <POI MapID="1045" xpos="415.356" ypos="20.0413" zpos="449.591" type="ksr_markers.hptour.hot.td.waypoint" iconFile="data\hptour\heartofthorns\tangleddepths\waypoints\hptour_hot_td_wp_order-of-whispers-camp.png" />
+            <POI MapID="1045" xpos="415.356" ypos="20.0413" zpos="449.591" type="ksr_markers.hptour.hot.td.waypoint" iconFile="data\hptour\heartofthorns\tangleddepths\waypoints\hptour_hot_td_wp_order-of-whispers-camp.png" copy="TP to [&BA4IAAA=]" copy-message="'TP to Order of Whispers Camp Waypoint' copied to clipboard!" />
             <!-- HP 6 -->
             <Trail type="ksr_markers.hptour.hot.td.trail" trailData="data\hptour\heartofthorns\tangleddepths\trails\hptour_hot_td_6.trl" />
             <POI MapID="1045" xpos="-695.962" ypos="238.97" zpos="188.342" type="ksr_markers.hptour.hot.td.trail" iconFile="data\hptour\hptour_6.png" mapDisplaySize="50" />
