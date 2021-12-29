@@ -68,12 +68,10 @@
             <POI MapID="1052" xpos="505.772" ypos="416.262" zpos="285.026" type="ksr_markers.hptour.hot.vb.skillassist.portal" iconFile="data\skills\skill_portal_exit.png" />
             <!-- HP 4 -->
             <Trail type="ksr_markers.hptour.hot.vb.trail" trailData="data\hptour\heartofthorns\verdantbrink\trails\hptour_hot_vb_4.trl" />
-            <Trail type="ksr_markers.hptour.hot.vb.trail" trailData="data\hptour\heartofthorns\verdantbrink\trails\hptour_hot_vb_4_portal.trl" texture="data\trails\trail_purple.png" />
             <POI MapID="1052" xpos="519.408" ypos="417.524" zpos="308.776" type="ksr_markers.hptour.hot.vb.trail" iconFile="data\hptour\hptour_4.png" mapDisplaySize="50" />
             <POI MapID="1052" xpos="508.542" ypos="420.773" zpos="317.552" type="ksr_markers.hptour.hot.vb.skillassist.portal" iconFile="data\skills\skill_portal_entrance.png" />
             <POI MapID="1052" xpos="488.623" ypos="454.996" zpos="339.504" type="ksr_markers.hptour.hot.vb.skillassist.portal" iconFile="data\skills\skill_portal_exit.png" />
             <POI MapID="1052" xpos="505.295" ypos="420.824" zpos="315.12" type="ksr_markers.hptour.hot.vb.skillassist.mount" iconFile="data\mounts\mount_springer.png" />
-            <POI MapID="1052" xpos="235.031" ypos="443.211" zpos="246.197" type="ksr_markers.hptour.hot.vb.skillassist.mount" iconFile="data\mounts\mount_springer.png" />
             <POI MapID="1052" xpos="225.908" ypos="460.619" zpos="219.724" type="ksr_markers.hptour.hot.vb.skillassist.portal" iconFile="data\skills\skill_portal_entrance.png" />
             <POI MapID="1052" xpos="208.021" ypos="581.75" zpos="231.96" type="ksr_markers.hptour.hot.vb.skillassist.portal" iconFile="data\skills\skill_portal_exit.png" />
             <POI MapID="1052" xpos="224.617" ypos="460.505" zpos="216.827" type="ksr_markers.hptour.hot.vb.skillassist.mount" iconFile="data\mounts\mount_skyscale.png" />
@@ -87,13 +85,9 @@
             <POI MapID="1052" xpos="-77.4906" ypos="27.1517" zpos="-132.611" type="ksr_markers.hptour.hot.vb.waypoint" iconFile="data\hptour\heartofthorns\verdantbrink\waypoints\hptour_hot_vb_wp_pact-encampment.png" />
             <!-- HP 7 -->
             <Trail type="ksr_markers.hptour.hot.vb.trail" trailData="data\hptour\heartofthorns\verdantbrink\trails\hptour_hot_vb_7.trl" />
-            <Trail type="ksr_markers.hptour.hot.vb.trail" trailData="data\hptour\heartofthorns\verdantbrink\trails\hptour_hot_vb_7_portal.trl" texture="data\trails\trail_purple.png" />
             <POI MapID="1052" xpos="140.905" ypos="430.092" zpos="-37.7675" type="ksr_markers.hptour.hot.vb.trail" iconFile="data\hptour\hptour_7.png" mapDisplaySize="50" />
             <POI MapID="1052" xpos="-370.197" ypos="412.619" zpos="-264.69" type="ksr_markers.hptour.hot.vb.skillassist.portal" iconFile="data\skills\skill_portal_entrance.png" />
             <POI MapID="1052" xpos="-392.328" ypos="492.289" zpos="-274.201" type="ksr_markers.hptour.hot.vb.skillassist.portal" iconFile="data\skills\skill_portal_exit.png" />
-            <POI MapID="1052" xpos="-515.563" ypos="514.564" zpos="-285.146" type="ksr_markers.hptour.hot.vb.skillassist.portal" iconFile="data\skills\skill_portal_entrance.png" />
-            <POI MapID="1052" xpos="-513.109" ypos="597.808" zpos="-262.186" type="ksr_markers.hptour.hot.vb.skillassist.portal" iconFile="data\skills\skill_portal_exit.png" />
-            <POI MapID="1052" xpos="-516.639" ypos="518.726" zpos="-289.429" type="ksr_markers.hptour.hot.vb.skillassist.mount" iconFile="data\mounts\mount_skyscale.png" />
             <!-- HP 8 -->
             <Trail type="ksr_markers.hptour.hot.vb.trail" trailData="data\hptour\heartofthorns\verdantbrink\trails\hptour_hot_vb_8.trl" />
             <POI MapID="1052" xpos="-674.513" ypos="563.162" zpos="-128.734" type="ksr_markers.hptour.hot.vb.trail" iconFile="data\hptour\hptour_8.png" mapDisplaySize="50" />
@@ -103,10 +97,9 @@
             <!-- HP 9 -->
             <Trail type="ksr_markers.hptour.hot.vb.trail" trailData="data\hptour\heartofthorns\verdantbrink\trails\hptour_hot_vb_9.trl" />
             <POI MapID="1052" xpos="-524.573" ypos="515.725" zpos="-285.054" type="ksr_markers.hptour.hot.vb.trail" iconFile="data\hptour\hptour_9.png" mapDisplaySize="50" />
-            <POI MapID="1052" xpos="-325.496" ypos="584.07" zpos="-230.782" type="ksr_markers.hptour.hot.vb.waypoint" iconFile="data\hptour\heartofthorns\verdantbrink\waypoints\hptour_hot_vb_wp_farens-flyer.png" />
             <!-- HP 10 -->
             <Trail type="ksr_markers.hptour.hot.vb.trail" trailData="data\hptour\heartofthorns\verdantbrink\trails\hptour_hot_vb_10.trl" />
-            <POI MapID="1052" xpos="-518.955" ypos="513.449" zpos="-274.623" type="ksr_markers.hptour.hot.vb.trail" iconFile="data\hptour\hptour_10.png" mapDisplaySize="50" />
+            <POI MapID="1052" xpos="-327.995" ypos="581.985" zpos="-232.871" type="ksr_markers.hptour.hot.vb.trail" iconFile="data\hptour\hptour_10.png" mapDisplaySize="50" />
             <POI MapID="1052" xpos="-398.715" ypos="148.125" zpos="-116.258" type="ksr_markers.hptour.hot.vb.waypoint" iconFile="data\hptour\heartofthorns\verdantbrink\waypoints\hptour_hot_vb_wp_farens-flyer.png" />
             <!-- HP 11 -->
             <Trail type="ksr_markers.hptour.hot.vb.trail" trailData="data\hptour\heartofthorns\verdantbrink\trails\hptour_hot_vb_11.trl" />
