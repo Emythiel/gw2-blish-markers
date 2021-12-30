@@ -52,7 +52,8 @@
     <!-- HEART OF THORNS HERO POINT TOUR -->
 
         <!-- VERDANT BRINK -->
-        <POI MapID="1052" xpos="864.803" ypos="431.35" zpos="50.9264" type="ksr_markers.hptour.hot.vb" iconFile="data\hptour\heartofthorns\hptour_hot_start.png" />
+        <Trail type="ksr_markers.hptour.hot.vb.trail" trailData="data\hptour\heartofthorns\verdantbrink\trails\hptour_hot_vb_begin.trl" texture="data\trails\trail_white.png" />
+        <POI MapID="1052" xpos="897.625" ypos="424.654" zpos="56.2457" type="ksr_markers.hptour.hot.vb" iconFile="data\hptour\heartofthorns\hptour_hot_start.png" />
             <!-- HP 1 -->
             <Trail type="ksr_markers.hptour.hot.vb.trail" trailData="data\hptour\heartofthorns\verdantbrink\trails\hptour_hot_vb_1.trl" />
             <Trail type="ksr_markers.hptour.hot.vb.trail" trailData="data\hptour\heartofthorns\verdantbrink\trails\hptour_hot_vb_1_mastery.trl" texture="data\trails\trail_green.png" />
@@ -74,7 +75,7 @@
             <!-- HP 4 -->
             <Trail type="ksr_markers.hptour.hot.vb.trail" trailData="data\hptour\heartofthorns\verdantbrink\trails\hptour_hot_vb_4.trl" />
             <POI MapID="1052" xpos="519.408" ypos="417.524" zpos="308.776" type="ksr_markers.hptour.hot.vb.trail" iconFile="data\hptour\hptour_4.png" mapDisplaySize="50" />
-            <POI MapID="1052" xpos="508.542" ypos="420.773" zpos="317.552" type="ksr_markers.hptour.hot.vb.skillassist.portal" iconFile="data\skills\skill_portal_entrance_cp.png" copy="Use Springer or Skyscale to get up, or wait here for a portal." copy-message="'Use Springer/Skyscale or wait for portal' copied to clipboard!" />
+            <POI MapID="1052" xpos="508.542" ypos="420.773" zpos="317.552" type="ksr_markers.hptour.hot.vb.skillassist.portal" iconFile="data\skills\skill_portal_entrance_cp.png" copy="Use Skyscale or Springer to get up, or wait here for a portal." copy-message="'Use Springer/Skyscale or wait for portal' copied to clipboard!" />
             <POI MapID="1052" xpos="488.623" ypos="454.996" zpos="339.504" type="ksr_markers.hptour.hot.vb.skillassist.portal" iconFile="data\skills\skill_portal_exit.png" />
             <POI MapID="1052" xpos="505.295" ypos="420.824" zpos="315.12" type="ksr_markers.hptour.hot.vb.skillassist.mount" iconFile="data\mounts\mount_springer.png" />
             <POI MapID="1052" xpos="225.908" ypos="460.619" zpos="219.724" type="ksr_markers.hptour.hot.vb.skillassist.portal" iconFile="data\skills\skill_portal_entrance_cp.png" copy="Use Skyscale to follow me up, or wait here for a portal." copy-message="'Use Skyscale or wait for portal' copied to clipboard!" />
@@ -124,26 +125,27 @@
 
         <!-- AURIC BASIN -->
         <Trail type="ksr_markers.hptour.hot.ab.trail" trailData="data\hptour\heartofthorns\auricbasin\trails\hptour_hot_ab_begin.trl" texture="data\trails\trail_white.png" />
-        <POI MapID="1043" xpos="-387.878" ypos="474.888" zpos="660.869" type="ksr_markers.hptour.hot.ab" iconFile="data\hptour\heartofthorns\hptour_hot_start.png" />
+        <POI MapID="1043" xpos="-448.244" ypos="496.338" zpos="782.322" type="ksr_markers.hptour.hot.ab" iconFile="data\hptour\heartofthorns\hptour_hot_start.png" />
             <!-- HP 1 -->
             <Trail type="ksr_markers.hptour.hot.ab.trail" trailData="data\hptour\heartofthorns\auricbasin\trails\hptour_hot_ab_1.trl" />
             <POI MapID="1043" xpos="-392.738" ypos="476.198" zpos="655.902" type="ksr_markers.hptour.hot.ab.trail" iconFile="data\hptour\hptour_1.png" mapDisplaySize="50" />
+            <POI MapID="1043" xpos="-403.352" ypos="480.282" zpos="628.481" type="ksr_markers.hptour.hot.vb.clipboard" copy="Drop down to the bottom, careful you don't go splat on the ground." copy-message="'Drop down, be careful' copied to clipboard!" />
             <!-- HP 2 -->
             <Trail type="ksr_markers.hptour.hot.ab.trail" trailData="data\hptour\heartofthorns\auricbasin\trails\hptour_hot_ab_2.trl" />
             <POI MapID="1043" xpos="-406.518" ypos="330.723" zpos="560.563" type="ksr_markers.hptour.hot.ab.trail" iconFile="data\hptour\hptour_2.png" mapDisplaySize="50" />
-            <POI MapID="1043" xpos="-427.24" ypos="304.262" zpos="429.898" type="ksr_markers.hptour.hot.ab.note" iconFile="data\hptour\heartofthorns\auricbasin\notes\hptour_hot_ab_note_jackal-barrier.png" />
+            <POI MapID="1043" xpos="-427.24" ypos="304.262" zpos="429.898" type="ksr_markers.hptour.hot.ab.note" iconFile="data\hptour\heartofthorns\auricbasin\notes\hptour_hot_ab_note_jackal-barrier.png" copy="Take a piece of toxic bacon and use [&BhiEAAA=], then keep using [&BpqBAAA=] to heal. You can also help by spamming [&BhedAAA=]'s [&Bgm0AAA=] ability to provide barrier." copy-message="'Eat Bacon, spam Jackal Pounce ability for barrier' copied to clipboard!" />
             <!-- HP 3 -->
             <Trail type="ksr_markers.hptour.hot.ab.trail" trailData="data\hptour\heartofthorns\auricbasin\trails\hptour_hot_ab_3.trl" />
             <POI MapID="1043" xpos="-424.529" ypos="303.618" zpos="421.147" type="ksr_markers.hptour.hot.ab.trail" iconFile="data\hptour\hptour_3.png" mapDisplaySize="50" />
-            <POI MapID="1043" xpos="-496.71" ypos="266.376" zpos="-96.309" type="ksr_markers.hptour.hot.ab.skillassist.portal" iconFile="data\skills\skill_portal_entrance_cp.png" />
+            <POI MapID="1043" xpos="-496.71" ypos="266.376" zpos="-96.309" type="ksr_markers.hptour.hot.ab.skillassist.portal" iconFile="data\skills\skill_portal_entrance_cp.png" copy="Use Skyscale or Springer to get up, or wait here for a portal." copy-message="'Springer/Skyscale up, or wait for portal' copied to clipboard!" />
             <POI MapID="1043" xpos="-516.92" ypos="307.783" zpos="-118.429" type="ksr_markers.hptour.hot.ab.skillassist.portal" iconFile="data\skills\skill_portal_exit.png" />
             <POI MapID="1043" xpos="-494.188" ypos="265.773" zpos="-98.5936" type="ksr_markers.hptour.hot.ab.skillassist.mount" iconFile="data\mounts\mount_springer.png" />
             <!-- HP 4 -->
             <Trail type="ksr_markers.hptour.hot.ab.trail" trailData="data\hptour\heartofthorns\auricbasin\trails\hptour_hot_ab_4.trl" />
-            <POI MapID="1043" xpos="-539.986" ypos="211.003" zpos="-302.815" type="ksr_markers.hptour.hot.ab.trail" iconFile="data\hptour\hptour_4.png" mapDisplaySize="50" />
-            <POI MapID="1043" xpos="-183.26" ypos="267.604" zpos="-670.466" type="ksr_markers.hptour.hot.ab.skillassist.portal" iconFile="data\skills\skill_portal_entrance_cp.png" />
+            <POI MapID="1043" xpos="-541.169" ypos="211.181" zpos="-303.672" type="ksr_markers.hptour.hot.ab.trail" iconFile="data\hptour\hptour_4.png" mapDisplaySize="50" />
+            <POI MapID="1043" xpos="-183.26" ypos="267.604" zpos="-670.466" type="ksr_markers.hptour.hot.ab.skillassist.portal" iconFile="data\skills\skill_portal_entrance_cp.png" copy="Use the Exalted Mark to enter, or wait here for a portal." copy-message="'Use exalted mark or wait for portal' copied to clipboard!" />
             <POI MapID="1043" xpos="-204.217" ypos="263.411" zpos="-683.662" type="ksr_markers.hptour.hot.ab.skillassist.portal" iconFile="data\skills\skill_portal_exit.png" />
-            <POI MapID="1043" xpos="-285.468" ypos="273.346" zpos="-747.494" type="ksr_markers.hptour.hot.ab.note" iconFile="data\hptour\heartofthorns\auricbasin\notes\hptour_hot_ab_note_balthazar.png" />
+            <POI MapID="1043" xpos="-285.468" ypos="273.346" zpos="-747.494" type="ksr_markers.hptour.hot.ab.note" iconFile="data\hptour\heartofthorns\auricbasin\notes\hptour_hot_ab_note_balthazar.png" copy="Balthazar is up, those with the mastery enter through the Exalted Mark, rest wait outside. Careful for the fire AoE, stay ranged if you can." copy-message="'Balthazar event is up warning' copied to clipboard!" />
             <POI MapID="1043" xpos="-317.254" ypos="278.242" zpos="-769.759" type="ksr_markers.hptour.hot.ab.waypoint" iconFile="data\hptour\heartofthorns\auricbasin\waypoints\hptour_hot_ab_wp_wanderers.png" copy="TP to [&BNYHAAA=]" copy-message="'TP to Wanderer's Waypoint' copied to clipboard!" />
             <!-- HP 5 -->
             <Trail type="ksr_markers.hptour.hot.ab.trail" trailData="data\hptour\heartofthorns\auricbasin\trails\hptour_hot_ab_5.trl" />
@@ -151,15 +153,14 @@
             <!-- HP 6 -->
             <Trail type="ksr_markers.hptour.hot.ab.trail" trailData="data\hptour\heartofthorns\auricbasin\trails\hptour_hot_ab_6.trl" />
             <POI MapID="1043" xpos="122.761" ypos="198.955" zpos="118.898" type="ksr_markers.hptour.hot.ab.trail" iconFile="data\hptour\hptour_6.png" mapDisplaySize="50" />
+            <POI MapID="1043" xpos="122.863" ypos="198.637" zpos="115.346" type="ksr_markers.hptour.hot.vb.clipboard" copy="Drop into the cave in the center. You can take [&BMYHAAA=] on the way if you need it." copy-message="'Drop to cave in center, take WP on the way' copied to clipboard!" />
             <POI MapID="1043" xpos="-11.2381" ypos="20.7382" zpos="120.485" type="ksr_markers.hptour.hot.ab.waypoint" iconFile="data\hptour\heartofthorns\auricbasin\waypoints\hptour_hot_ab_wp_northwatch.png" copy="TP to [&BN0HAAA=]" copy-message="'TP to Northwatch Waypoint' copied to clipboard!" />
             <!-- HP 7 -->
             <Trail type="ksr_markers.hptour.hot.ab.trail" trailData="data\hptour\heartofthorns\auricbasin\trails\hptour_hot_ab_7.trl" />
-            <Trail type="ksr_markers.hptour.hot.ab.trail" trailData="data\hptour\heartofthorns\auricbasin\trails\hptour_hot_ab_7_portal.trl" />
             <POI MapID="1043" xpos="64.2147" ypos="329.811" zpos="481.482" type="ksr_markers.hptour.hot.ab.trail" iconFile="data\hptour\hptour_7.png" mapDisplaySize="50" />
-            <POI MapID="1043" xpos="268.15" ypos="370.547" zpos="600.91" type="ksr_markers.hptour.hot.ab.skillassist.portal" iconFile="data\skills\skill_portal_entrance_cp.png" />
+            <POI MapID="1043" xpos="269.993" ypos="370.672" zpos="603.314" type="ksr_markers.hptour.hot.ab.skillassist.portal" iconFile="data\skills\skill_portal_entrance_cp.png" copy="Use Griffon, Skyscale, Ley-Line Gliding or other means to get across, or wait here for a portal." copy-message="'Use mounts or leyline glide or wait for portal' copied to clipboard!" />
             <POI MapID="1043" xpos="296.447" ypos="424.125" zpos="685.859" type="ksr_markers.hptour.hot.ab.skillassist.portal" iconFile="data\skills\skill_portal_exit.png" />
             <POI MapID="1043" xpos="306.312" ypos="383.257" zpos="658.606" type="ksr_markers.hptour.hot.ab.skillassist.mount" iconFile="data\mounts\mount_skyscale.png" />
-            <POI MapID="1043" xpos="313.876" ypos="377.754" zpos="718.425" type="ksr_markers.hptour.hot.ab.skillassist.mount" iconFile="data\mounts\mount_springer.png" />
             <POI MapID="1043" xpos="341.391" ypos="418.979" zpos="772.474" type="ksr_markers.hptour.hot.ab.waypoint" iconFile="data\hptour\heartofthorns\auricbasin\waypoints\hptour_hot_ab_wp_northwatch.png" copy="TP to [&BN0HAAA=]" copy-message="'TP to Northwatch Waypoint' copied to clipboard!" />
             <!-- HP 8 -->
             <Trail type="ksr_markers.hptour.hot.ab.trail" trailData="data\hptour\heartofthorns\auricbasin\trails\hptour_hot_ab_8.trl" />
@@ -167,17 +168,18 @@
             <!-- HP 9 -->
             <Trail type="ksr_markers.hptour.hot.ab.trail" trailData="data\hptour\heartofthorns\auricbasin\trails\hptour_hot_ab_9.trl" />
             <POI MapID="1043" xpos="141.677" ypos="307.577" zpos="381.479" type="ksr_markers.hptour.hot.ab.trail" iconFile="data\hptour\hptour_9.png" mapDisplaySize="50" />
-            <POI MapID="1043" xpos="382.807" ypos="289.425" zpos="174.459" type="ksr_markers.hptour.hot.ab.skillassist.portal" iconFile="data\skills\skill_portal_entrance_cp.png" />
+            <POI MapID="1043" xpos="382.807" ypos="289.425" zpos="174.459" type="ksr_markers.hptour.hot.ab.skillassist.portal" iconFile="data\skills\skill_portal_entrance_cp.png" copy="Use Skyscale or Springer to get up, or wait here for a portal." copy-message="'Skyscale/Springer up or wait for portal' copied to clipboard!" />
             <POI MapID="1043" xpos="394.135" ypos="319.87" zpos="185.511" type="ksr_markers.hptour.hot.ab.skillassist.portal" iconFile="data\skills\skill_portal_exit.png" />
             <POI MapID="1043" xpos="383.268" ypos="289.47" zpos="172.227" type="ksr_markers.hptour.hot.ab.skillassist.mount" iconFile="data\mounts\mount_springer.png" />
             <!-- HP 10 -->
             <Trail type="ksr_markers.hptour.hot.ab.trail" trailData="data\hptour\heartofthorns\auricbasin\trails\hptour_hot_ab_10.trl" />
             <POI MapID="1043" xpos="550.705" ypos="345.638" zpos="237.599" type="ksr_markers.hptour.hot.ab.trail" iconFile="data\hptour\hptour_10.png" mapDisplaySize="50" />
-            <POI MapID="1043" xpos="548.962" ypos="287.392" zpos="-249.797" type="ksr_markers.hptour.hot.ab.skillassist.portal" iconFile="data\skills\skill_portal_entrance_cp.png" />
+            <POI MapID="1043" xpos="548.962" ypos="287.392" zpos="-249.797" type="ksr_markers.hptour.hot.ab.skillassist.portal" iconFile="data\skills\skill_portal_entrance_cp.png" copy="Use Bouncing Mushroom or a mount to get up, or wait here for a portal." copy-message="'Mushroom up or wait for portal' copied to clipboard!" />
             <POI MapID="1043" xpos="541.05" ypos="301.478" zpos="-254.75" type="ksr_markers.hptour.hot.ab.skillassist.portal" iconFile="data\skills\skill_portal_exit.png" />
             <!-- HP 11 -->
             <Trail type="ksr_markers.hptour.hot.ab.trail" trailData="data\hptour\heartofthorns\auricbasin\trails\hptour_hot_ab_11.trl" />
             <POI MapID="1043" xpos="571.92" ypos="314.816" zpos="-374.701" type="ksr_markers.hptour.hot.ab.trail" iconFile="data\hptour\hptour_11.png" mapDisplaySize="50" />
+            <POI MapID="1043" xpos="312.86" ypos="236.889" zpos="-839.673" type="ksr_markers.hptour.hot.vb.clipboard" copy="Careful on this boss, the blue goop deals a lot of damage. Stay ranged if you can, and CC it quickly." copy-message="'Careful of blue goop, CC quickly' copied to clipboard!" />
 
         <Trail type="ksr_markers.hptour.hot.ab.trail" trailData="data\hptour\heartofthorns\auricbasin\trails\hptour_hot_ab_finish.trl" texture="data\trails\trail_white.png" />
 
