@@ -9,6 +9,6 @@ The route also includes various of markers that you can interact with to instant
 ## Credits
 Thanks to:
   - [Blish HUD](https://blishhud.com/) and everyone on the Blish HUD Discord.
-  - [TehsTrails](https://github.com/xrandox/TehsTrails) and [Czokalapik's trails](https://bitbucket.org/czokalapik/czokalapiks-guides-for-gw2taco/) for their trails, which I used as an inspiration for my own route.
+  - [TehsTrails](https://github.com/xrandox/TehsTrails) and [Czokalapik's trails](https://bitbucket.org/czokalapik/czokalapiks-guides-for-gw2taco/) for their packs, which I used as an inspiration for my own route.
   - My guild (Inglourious Scrubs [DPS])
   - ArenaNet for some of the assets used in the pack.
