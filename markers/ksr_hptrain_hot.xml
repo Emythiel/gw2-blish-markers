@@ -176,8 +176,10 @@
             <Trail type="ksr_markers.hptour.hot.ab.trail" trailData="data\hptour\heartofthorns\auricbasin\trails\hptour_hot_ab_10.trl" />
             <POI MapID="1043" xpos="571.92" ypos="314.816" zpos="-374.701" type="ksr_markers.hptour.hot.ab.number" iconFile="data\hptour\hptour_10.png" />
             <POI MapID="1043" xpos="312.86" ypos="236.889" zpos="-839.673" type="ksr_markers.hptour.hot.ab.note" info="Careful on the boss, stay away from the blue goop and CC fast." copy="Careful on this boss, the blue goop deals a lot of damage. Stay ranged if you can, and CC it quickly." copy-message="'Careful of blue goop, CC quickly' copied to clipboard!" />
+            <POI MapID="1043" xpos="276.873" ypos="230.188" zpos="-825.767" type="ksr_markers.hptour.hot.ab.waypoint" iconFile="data\hptour\heartofthorns\auricbasin\waypoints\hptour_hot_ab_wp_chak-hollow.png" copy="TP to [&BEkIAAA=]" copy-message="'TP to Chak Hollow Waypoint' copied to clipboard!" />
             <!-- HP 11 -->
             <Trail type="ksr_markers.hptour.hot.ab.trail" trailData="data\hptour\heartofthorns\auricbasin\trails\hptour_hot_ab_11.trl" />
+            <Trail type="ksr_markers.hptour.hot.ab.trail" trailData="data\hptour\heartofthorns\auricbasin\trails\hptour_hot_ab_11_portal_1.trl" color="#c900c1" />
             <POI MapID="1043" xpos="335.298" ypos="233.994" zpos="-677.091" type="ksr_markers.hptour.hot.ab.number" iconFile="data\hptour\hptour_11.png" />
             <POI MapID="1043" xpos="198.972" ypos="233.179" zpos="-770.502" type="ksr_markers.hptour.hot.ab.skillassist.portal" iconFile="data\skills\skill_portal_entrance_cp.png" info="Put a portal here for those without Skyscale or Springer." copy="Skyscale/Springer up, or wait here for a portal." copy-message="'Skyscale/Springer up or portal' copied to clipboard!" />
             <POI MapID="1043" xpos="166.07" ypos="279.866" zpos="-762.711" type="ksr_markers.hptour.hot.ab.skillassist.portal" iconFile="data\skills\skill_portal_exit.png" />
