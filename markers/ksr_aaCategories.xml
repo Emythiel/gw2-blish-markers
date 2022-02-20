@@ -44,7 +44,7 @@
         </MarkerCategory>
 
     <!-- RAID INFO -->
-    <MarkerCategory name="raidinfo" DisplayName="   RAID INFO" IsSeparator="1"/>
+    <MarkerCategory name="raidinfo" DisplayName="   RAID INFO - WIP" IsSeparator="1"/>
         <!-- WING 1 -->
         <MarkerCategory name="raidwing1" DisplayName="Wing 1 - Spirit Vale" iconSize="2" mapVisibility="0" minimapVisibility="0">
             <!-- VALE GUARDIAN -->
