@@ -3,7 +3,7 @@
     <POIs>
 
         <!-- WING 1 -->
-        <POI MapID="1062" xpos="-121.173" ypos="61.8598" zpos="-568.092" type="ksr_markers.raidwing1.vg.bossinfo" iconFile="data\raidinfo\wing1\vg\vg_boss.png" cull="CounterClockwise" rotate="90,0,180"/>
+        <POI MapID="1062" xpos="-115.391" ypos="61.1635" zpos="-566.889" type="ksr_markers.raidwing1.vg.bossinfo" iconFile="data\raidinfo\wing1\vg\vg_boss.png" cull="CounterClockwise" rotate="90,0,185"/>
 
     </POIs>
 
