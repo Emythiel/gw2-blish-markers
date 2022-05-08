@@ -48,9 +48,9 @@
         <!-- WING 1 -->
         <MarkerCategory name="raidwing1" DisplayName="Wing 1 - Spirit Vale" iconSize="3.5" fadeNear="600" fadeFar="1000" mapVisibility="0" minimapVisibility="0">
             <!-- VALE GUARDIAN -->
-            <MarkerCategory name="vg" DisplayName="Vale Guardian">
-                <MarkerCategory name="bossinfo" DisplayName="Boss Info"/>
-            </MarkerCategory>
+            <MarkerCategory name="vg" DisplayName="Vale Guardian" />
+            <MarkerCategory name="gorseval" DisplayName="Gorseval the Multifarious" />
+            <MarkerCategory name="sabetha" DisplayName="Sabetha the Saboteur" />
         </MarkerCategory>
 
     </MarkerCategory>
