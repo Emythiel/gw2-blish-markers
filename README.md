@@ -12,7 +12,7 @@ Along the route there will be various of markers that can be interacted with to 
 - **Raid Info** *(Work in Progress)*  
 Adds a "cheat sheet" before raid bosses, with basic information such as time between certain mechanics, how long they last, how big the defiance bars are, etc.
 Mechanics are not explained in-depth, nor will there be any specific strategy guide, as they can change depending on updates, classes, squad composition and so on.  
-Instead, think of it more like a little "aha, so X mechanic lasts Y seconds" - as in, little reminders on the smaller details that are more easily forgotten.
+Instead, think of it more like a little "ah right, X mechanic lasts Y seconds" - as in, little reminders on the smaller details that are more easily forgotten.
 
 
 ## Credits
