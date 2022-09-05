@@ -2,7 +2,7 @@
 
     <MarkerCategory name="ksr_markers" DisplayName="Kresky's Marker Pack" iconFile="data\icon.png">
 
-    <MarkerCategory name="ksr_version" DisplayName="   v1.0.1 -- 2022.01.31" IsSeparator="1"/>
+    <MarkerCategory name="ksr_version" DisplayName="   v1.0.5 -- 2022.09.05" IsSeparator="1"/>
 
     <!-- HERO POINT TRAINS -->
     <MarkerCategory name="hptrain" DisplayName="   HERO POINT TRAINS" IsSeparator="1"/>
