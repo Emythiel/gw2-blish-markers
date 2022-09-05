@@ -1,5 +1,6 @@
 # Kresky's GW2 Markers
 Marker Pack for the Guild Wars 2 Addon [Blish HUD](https://blishhud.com/)
+If you have questions or suggestions/feedback, feel free to ping me (`Kresky#7547`) on the Blish HUD Discord server.
 -
 
 ### Content:
@@ -15,9 +16,10 @@ Mechanics are not explained in-depth, nor will there be any specific strategy gu
 Instead, think of it more like a little "ah right, X mechanic lasts Y seconds" - as in, little reminders on the smaller details that are more easily forgotten.
 
 
-## Credits
+## Credits:
 Thanks to:
   - [Blish HUD](https://blishhud.com/) and everyone on the Blish HUD Discord.
   - [TehsTrails](https://github.com/xrandox/TehsTrails) and [Czokalapik's trails](https://bitbucket.org/czokalapik/czokalapiks-guides-for-gw2taco/) for their packs, which I used as an inspiration for my own route.
   - My guild (Inglourious Scrubs [DPS])
   - ArenaNet for some of the assets used in the pack.
+
