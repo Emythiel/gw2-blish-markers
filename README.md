@@ -1,7 +1,8 @@
 # Kresky's GW2 Markers
-Marker Pack for the Guild Wars 2 Addon [Blish HUD](https://blishhud.com/)
+Marker Pack for the Guild Wars 2 Addon [Blish HUD](https://blishhud.com/)  
 If you have questions or suggestions/feedback, feel free to ping me (`Kresky#7547`) on the Blish HUD Discord server.
--
+
+---
 
 ### Content:
 - **Hero Point Train**  
