@@ -1,1 +1,1 @@
-".\tools\7z.exe" a -m0=Copy kreskysmarkers.zip ".\markers\*"
+".\tools\7z.exe" a -m0=Copy emysmarkers.zip ".\markers\*"

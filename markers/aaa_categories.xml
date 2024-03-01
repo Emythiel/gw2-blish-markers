@@ -1,8 +1,8 @@
 <OverlayData>
 
-    <MarkerCategory name="ksr_markers" DisplayName="Kresky's Marker Pack" iconFile="data\icon.png">
+    <MarkerCategory name="emy_markers" DisplayName="Emy's HoT HP Marker Pack" iconFile="data\icon.png">
 
-    <MarkerCategory name="ksr_version" DisplayName="   v1.0.5 -- 2022.09.05" IsSeparator="1"/>
+    <MarkerCategory name="emy_markers" DisplayName="   v1.0.6 -- 2024.03.01" IsSeparator="1"/>
 
     <!-- HERO POINT TRAINS -->
     <MarkerCategory name="hptrain" DisplayName="   HERO POINT TRAINS" IsSeparator="1"/>
@@ -41,16 +41,6 @@
                     <MarkerCategory name="mount" DisplayName="Mounts" heightOffset="1" iconSize="1.5" mapVisibility="0" minimapVisibility="0" />
                 </MarkerCategory>
             </MarkerCategory>
-        </MarkerCategory>
-
-    <!-- RAID INFO -->
-    <MarkerCategory name="raidinfo" DisplayName="   RAID INFO - !WIP!" IsSeparator="1"/>
-        <!-- WING 1 -->
-        <MarkerCategory name="raidwing1" DisplayName="Wing 1 - Spirit Vale" iconSize="3.5" fadeNear="800" fadeFar="1200" mapVisibility="0" minimapVisibility="0">
-            <!-- VALE GUARDIAN -->
-            <MarkerCategory name="vg" DisplayName="Vale Guardian" />
-            <MarkerCategory name="gorseval" DisplayName="Gorseval the Multifarious" />
-            <MarkerCategory name="sabetha" DisplayName="Sabetha the Saboteur" />
         </MarkerCategory>
 
     </MarkerCategory>

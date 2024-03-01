@@ -1,6 +1,6 @@
-# Kresky's GW2 Markers
+# Emy's GW2 Markers
 Marker Pack for the Guild Wars 2 Addon [Blish HUD](https://blishhud.com/)  
-If you have questions or suggestions/feedback, feel free to ping me (`Kresky#7547`) on the Blish HUD Discord server.
+If you have questions or suggestions/feedback, feel free to ping me (`Emythiel`) on the Blish HUD Discord server.
 
 ---
 
@@ -10,11 +10,6 @@ A Heart of Thorns hero point route, designed for commanders leading a train thro
 The path is designed with the idea that _anyone_ can follow the commander, as long as they have at least the Gliding Basics mastery (no other masteries needed aside from Itzel Poison Lore for 1 HP in Tangled Depths).  
 The route assumes that the commander plays as a mesmer to provide portals, and has access to majority of masteries (mainly Skyscale).  
 Along the route there will be various of markers that can be interacted with to copy a message to your clipboard, so you can quickly let the squad know what to do.
-
-- **Raid Info** *(Work in Progress)*  
-Adds a "cheat sheet" before raid bosses, with basic information such as time between certain mechanics, how long they last, how big the defiance bars are, etc.
-Mechanics are not explained in-depth, nor will there be any specific strategy guide, as they can change depending on updates, classes, squad composition and so on.  
-Instead, think of it more like a little "ah right, X mechanic lasts Y seconds" - as in, little reminders on the smaller details that are more easily forgotten.
 
 
 ## Credits:
